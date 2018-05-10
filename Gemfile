@@ -40,6 +40,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'simplecov'
   gem 'shoulda-matchers'
   gem 'pry'
   gem 'active_designer'
