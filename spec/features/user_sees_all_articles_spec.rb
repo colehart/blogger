@@ -2,7 +2,7 @@
 require 'rails_helper'
 
 describe 'user sees all articles' do
-  scenario 'they visit /articles' do
+  context 'they visit /articles' do
     it 'displays all articles' do
       article1 = Article.create!(title: 'Title 1', body: 'Body 1')
       article2 = Article.create!(title: 'Title 2', body: 'Body 2')
