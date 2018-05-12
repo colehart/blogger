@@ -2,4 +2,4 @@
 %h1 All Articles
 %ul.articles
   - @articles.each do |article|
-    %li= article.title
+    %li.article-title= link_to article.title, article_path(article)
